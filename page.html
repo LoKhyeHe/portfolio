@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Student Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #1f1f1f;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #bbbbbb;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        .project h3 {
+            margin: 0 0 10px;
+            font-size: 1.5rem;
+        }
+
+        .project p {
+            color: #bbbbbb;
+            font-size: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #bbbbbb;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00adb5;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>John Doe</h1>
+    <p>Engineering Student | Passionate About Technology</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align: center; max-width: 600px; margin: auto;">
+        Hi! I'm John Doe, an engineering student with a strong passion for coding, problem-solving, and technology.
+        I love working on innovative projects and exploring new fields in engineering and software development.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of your first project. Highlight the technology or tools used.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of your second project. Showcase any key accomplishments.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>A brief description of your third project. Mention any challenges solved.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align: center;">
+        Feel free to reach out! You can email me at <a href="mailto:john.doe@example.com">john.doe@example.com</a>, or connect with me on
+        <a href="https://github.com/johndoe" target="_blank">GitHub</a>.
+    </p>
+</section>
+
+<footer>
+    &copy; 2024 John Doe | Built with HTML & CSS
+</footer>
+
+</body>
+</html>
